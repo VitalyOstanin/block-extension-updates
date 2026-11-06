@@ -1,0 +1,9 @@
+{
+  "uuid": "block-extension-updates@VitalyOstanin",
+  "name": "Block extension updates",
+  "description": "Stops GNOME Shell from checking for, downloading and installing updates of user-installed extensions. Updates stay possible manually.",
+  "shell-version": ["45", "46", "47", "48", "49", "50", "51"],
+  "session-modes": ["user", "unlock-dialog"],
+  "url": "https://github.com/VitalyOstanin/block-extension-updates",
+  "version-name": "1.0"
+}
