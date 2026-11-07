@@ -100,14 +100,13 @@ is `false`; after disabling, it is the prototype value again.
 Tags are named `v<version-name>`, for example `v1.0`; `version-name` in
 `metadata.json` is the tag name without `v`.
 
-1. Raise `version-name` in `metadata.json` and add a section to
-   `CHANGELOG.md`.
-2. Run the syntax check.
-3. Build the archive: `gnome-extensions pack --force .` and check its contents
-   with `unzip -l`: `extension.js` and `metadata.json` of this version.
-4. Create an annotated tag on the commit the archive was built from:
+1. Raise `version-name` in `metadata.json` and add a dated section with its
+   link reference to `CHANGELOG.md`.
+2. Point `--branch` in the README installation command to the new tag.
+3. Run the syntax check.
+4. Commit, then create an annotated tag on that commit:
    `git tag -a v<version-name> -m "v<version-name>"`.
-5. Upload the archive to extensions.gnome.org.
+5. Push the branch and the tag: `git push origin master v<version-name>`.
 
 ## Files
 

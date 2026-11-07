@@ -57,7 +57,7 @@ GNOME Shell 45-51.
 ## Installation
 
 ```sh
-git clone https://github.com/VitalyOstanin/block-extension-updates.git \
+git clone --branch v1.0 https://github.com/VitalyOstanin/block-extension-updates.git \
   ~/.local/share/gnome-shell/extensions/block-extension-updates@VitalyOstanin
 ```
 

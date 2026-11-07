@@ -3,7 +3,7 @@
 All notable changes to this extension are listed here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## [1.0] - Unreleased
+## [1.0] - 2026-11-07
 
 ### Added
 
@@ -13,3 +13,5 @@ All notable changes to this extension are listed here. The format follows
 - Restore a previous own property on disable; leave a non-configurable one
   in place with a warning.
 - Support for GNOME Shell 45-51.
+
+[1.0]: https://github.com/VitalyOstanin/block-extension-updates/releases/tag/v1.0
